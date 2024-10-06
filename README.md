@@ -37,6 +37,7 @@ No modules.
 | [aws_security_group.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
 | [aws_service_discovery_service.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/service_discovery_service) | resource |
 | [aws_alb.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/alb) | data source |
+| [GrafanaK6](https://grafana.com/docs/k6/latest/using-k6/http-requests/) | data source |
 
 ## Inputs
 
