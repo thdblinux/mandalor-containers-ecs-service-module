@@ -32,7 +32,7 @@ resource "aws_ecs_task_definition" "main" {
         }
       }
 
-      environment = var.enviroment_variables
+      environment = var.environment_variables
     }
   ])
 }

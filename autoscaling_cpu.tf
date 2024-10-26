@@ -57,7 +57,7 @@ resource "aws_appautoscaling_policy" "cpu_low" {
 
   policy_type = "StepScaling"
 
-  step_scaling_policy_configuration { 
+  step_scaling_policy_configuration {
     adjustment_type         = "ChangeInCapacity"
     cooldown                = var.scale_in_cooldown
     metric_aggregation_type = var.scale_in_statistic
